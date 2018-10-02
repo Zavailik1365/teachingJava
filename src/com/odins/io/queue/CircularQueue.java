@@ -2,6 +2,8 @@ package com.odins.io.queue;
 
 import com.odins.io.queue.base.Queue;
 import com.odins.io.queue.base.QueueElement;
+import com.odins.io.queue.exception.QueueEmptyException;
+import com.odins.io.queue.exception.QueueFullException;
 
 public class CircularQueue extends Queue implements Queue.IQueue {
 
@@ -24,11 +26,15 @@ public class CircularQueue extends Queue implements Queue.IQueue {
         return true;
     }
 
-    public boolean getNext() {
+    public boolean getNext()
+            throws QueueFullException, QueueEmptyException {
 
         if (this.queueCalls.length <= this.getloc) {
-            System.out.println("Индекс находится за границами массива.");
-            return false;
+            throw new QueueFullException(this.queueCalls.length);
+        }
+
+        if (this.queueCalls.length == 0) {
+            throw new QueueEmptyException();
         }
 
         if (this.endQueue && this.putloc == this.getloc && this.putloc != 0) {

@@ -4,6 +4,8 @@ import com.odins.io.queue.DynQueue;
 import com.odins.io.queue.FixsedQueue;
 import com.odins.io.queue.CircularQueue;
 import com.odins.io.queue.base.QueueElement;
+import com.odins.io.queue.exception.QueueEmptyException;
+import com.odins.io.queue.exception.QueueFullException;
 
 
 public class QDemo {
@@ -14,28 +16,54 @@ public class QDemo {
 
         FixsedQueue queueFixed = new FixsedQueue(29);
 
-        for (int i = 0; i < 10; i++) {
-            QueueElement element = new QueueElement();
-            element.setQueueElement(i);
-            queueFixed.putNext(element);
-        }
-
-        for (int i = 60; i < 70; i++) {
-            QueueElement element = new QueueElement();
-            element.setQueueElement((char) i);
-            queueFixed.putNext(element);
-        }
-
-        for (double i = 60; i < 70; i++) {
-            QueueElement element = new QueueElement();
-            element.setQueueElement(i);
-            queueFixed.putNext(element);
-        }
-
-        while (true){
-            if (! queueFixed.getNext()) {
-                break;
+        try {
+            while (true){
+                if (! queueFixed.getNext()) {
+                    break;
+                }
             }
+        } catch (QueueFullException | QueueEmptyException exc) {
+            System.out.println(exc);
+        }
+
+        try {
+            for (int i = 0; i < 10; i++) {
+                QueueElement element = new QueueElement();
+                element.setQueueElement(i);
+                queueFixed.putNext(element);
+            }
+        } catch (QueueFullException exc) {
+            System.out.println(exc);
+        }
+
+        try {
+            for (int i = 60; i < 70; i++) {
+                QueueElement element = new QueueElement();
+                element.setQueueElement((char) i);
+                queueFixed.putNext(element);
+            }
+        } catch (QueueFullException exc) {
+            System.out.println(exc);
+        }
+
+        try {
+            for (double i = 60; i < 70; i++) {
+                QueueElement element = new QueueElement();
+                element.setQueueElement(i);
+                queueFixed.putNext(element);
+            }
+        } catch (QueueFullException exc) {
+            System.out.println(exc);
+        }
+
+        try {
+            while (true){
+                if (! queueFixed.getNext()) {
+                    break;
+                }
+            }
+        } catch (QueueFullException | QueueEmptyException exc) {
+            System.out.println(exc);
         }
 
         System.out.println("Динамическое выделение памяти под очередь");
@@ -48,10 +76,14 @@ public class QDemo {
             queueDyn.putNext(element);
         }
 
-        while (true){
-            if (! queueDyn.getNext()) {
-                break;
+        try {
+            while (true){
+                if (! queueDyn.getNext()) {
+                    break;
+                }
             }
+        } catch (QueueFullException | QueueEmptyException exc) {
+            System.out.println(exc);
         }
 
         System.out.println("Круговое выделение памяти");
@@ -64,12 +96,15 @@ public class QDemo {
             queueCir.putNext(element);
         }
 
-        queueCir.getNextEndQueue();
-        while (true){
-            if (! queueCir.getNext()) {
-                break;
+        try {
+            queueCir.getNextEndQueue();
+            while (true){
+                if (! queueCir.getNext()) {
+                    break;
+                }
             }
+        } catch (QueueFullException | QueueEmptyException exc) {
+            System.out.println(exc);
         }
-
     }
 }

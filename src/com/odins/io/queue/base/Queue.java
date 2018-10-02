@@ -1,5 +1,8 @@
 package com.odins.io.queue.base;
 
+import com.odins.io.queue.exception.QueueEmptyException;
+import com.odins.io.queue.exception.QueueFullException;
+
 public class Queue {
 
     protected QueueElement queueCalls[];
@@ -10,11 +13,11 @@ public class Queue {
         queueCalls = new QueueElement[size];
     }
 
-    public boolean getNext() {
+    public boolean getNext()
+            throws QueueFullException, QueueEmptyException {
 
         if (this.queueCalls.length <= this.getloc) {
-            System.out.println("Индекс находится за границами массива.");
-            return false;
+            throw new QueueFullException(this.queueCalls.length);
         }
 
         if (this.putloc == this.getloc && this.putloc != 0) {
@@ -22,14 +25,18 @@ public class Queue {
             return false;
         }
 
-        this.queueCalls[this.getloc].showValue();
+        try {
+            this.queueCalls[this.getloc].showValue();
+        } catch (NullPointerException exc){
+            throw new QueueEmptyException();
+        }
         this.getloc++;
 
         return true;
     }
 
    public interface IQueue{
-       boolean putNext(QueueElement value);
+       boolean putNext(QueueElement value) throws QueueFullException;
    }
 
 }

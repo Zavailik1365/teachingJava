@@ -2,6 +2,7 @@ package com.odins.io.queue;
 
 import com.odins.io.queue.base.Queue;
 import com.odins.io.queue.base.QueueElement;
+import com.odins.io.queue.exception.QueueFullException;
 
 public class FixsedQueue extends Queue implements Queue.IQueue {
 
@@ -9,11 +10,10 @@ public class FixsedQueue extends Queue implements Queue.IQueue {
         super(size);
     }
 
-    public boolean putNext(QueueElement value) {
+    public boolean putNext(QueueElement value) throws QueueFullException {
 
         if (this.queueCalls.length <= this.putloc) {
-            System.out.println("Очередь переполнена.");
-            return false;
+           throw new QueueFullException(this.queueCalls.length );
         }
 
         this.queueCalls[this.putloc] = value;
