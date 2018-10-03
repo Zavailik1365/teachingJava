@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c18dd34-d3f1-427b-aa51-d2b5d907c6b4" name="Default Changelist" comment="exercise 9.1">
+    <list default="true" id="6c18dd34-d3f1-427b-aa51-d2b5d907c6b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/DemoCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/files/compare/Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/files/compare/exception/ArgumetsError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu/com/odins/QDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/edu/com/odins/QDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/CircularQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/FixsedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/FixsedQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/base/Queue$IQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/base/Queue$IQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/base/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/edu/com/odins/io/queue/base/Queue.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,9 +19,12 @@
     <SUITE FILE_PATH="coverage/edu$Main.ic" NAME="Main Coverage Results" MODIFIED="1538050465398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/teachingJava$DemoCompare.ic" NAME="DemoCompare Coverage Results" MODIFIED="1538567466982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.odins.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="271" />
+    <option name="myElementSize" value="294" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1518688476">
@@ -64,10 +66,11 @@
     <session id="1032876204">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -75,29 +78,31 @@
           <entry key="git.branch.checkout.local" value="1" />
           <entry key="git.branch.compare" value="1" />
           <entry key="git.branch.create.new" value="1" />
-          <entry key="git.branch.merge" value="4" />
+          <entry key="git.branch.merge" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="22" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="22" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="361" />
-          <entry key="txt" value="4" />
+          <entry key="java" value="1478" />
+          <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="361" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="1478" />
+          <entry key="PLAIN_TEXT" value="79" />
         </counts>
       </usages-collector>
     </session>
@@ -106,7 +111,106 @@
     <favorites_list name="teachingJava" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/ShowFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/files/compare/Compare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/DemoCompare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/exception/QueueEmptyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/files/compare/exception/ArgumetsError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,7 +228,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-9" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -160,6 +264,13 @@
         <option value="$PROJECT_DIR$/src/com/odins/QDemo.java" />
         <option value="$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java" />
         <option value="$PROJECT_DIR$/src/com/odins/io/queue/base/Queue.java" />
+        <option value="$PROJECT_DIR$/Test.txt" />
+        <option value="$PROJECT_DIR$/src/com/odins/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/ShowFile.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/files/compare/exception/ArgumetsError.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/DemoCompare.java" />
+        <option value="$PROJECT_DIR$/Test1.txt" />
+        <option value="$PROJECT_DIR$/src/com/odins/files/compare/Compare.java" />
       </list>
     </option>
   </component>
@@ -227,8 +338,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,6 +348,17 @@
             <path>
               <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,23 +372,27 @@
               <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="odins" type="462c0819:PsiDirectoryNode" />
-              <item name="figure" type="462c0819:PsiDirectoryNode" />
+              <item name="compare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="odins" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="compare" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538487170742" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Java project/teachingJava/src/com/odins/Main.java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538572515492" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -278,6 +402,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.odins.io.queue" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java project\teachingJava" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,20 +419,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QDemo">
-    <configuration name="Main " type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.odins.Main" />
+  <component name="RunManager" selected="Application.DemoCompare">
+    <configuration name="DemoCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.odins.DemoCompare" />
       <module name="edu" />
-      <option name="PROGRAM_PARAMETERS" value="-ddssd -sdsds -dfdffd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.odins.io.queue.base.*" />
+          <option name="PATTERN" value="com.odins.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Main" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="DemoCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.odins.DemoCompare" />
+      <module name="edu" />
+      <option name="PROGRAM_PARAMETERS" value="-Test.txt -Test1.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.odins.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
@@ -386,16 +527,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main " />
       <item itemvalue="Application.QDemo" />
+      <item itemvalue="Application.DemoCompare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoCompare" />
+        <item itemvalue="Application.DemoCompare" />
         <item itemvalue="Application.QDemo" />
-        <item itemvalue="Application.Main " />
-        <item itemvalue="Application.QDemo" />
-        <item itemvalue="Application.Main " />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -424,14 +563,22 @@
       <option name="project" value="LOCAL" />
       <updated>1538484635042</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="exercise 9.1">
+      <created>1538487266905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538487266905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.26332623" />
-      <window_info id="Structure" order="1" sideWeight="0.50323623" side_tool="true" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49514562" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" sideWeight="0.5048544" side_tool="true" visible="true" weight="0.26599148" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -439,14 +586,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.26066098" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -501,7 +648,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vcs=&quot;Git&quot;" />
     <MESSAGE value="exercise 9.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise 9.1" />
+    <MESSAGE value="Тестирование рабты с файлами." />
+    <MESSAGE value="Test merg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test merg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,7 +850,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/exception/QueueFullException.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/exception/QueueEmptyException.java" />
     <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/FixsedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -713,16 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,10 +878,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/odins/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/exception/QueueEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/files/compare/exception/ArgumetsError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/ShowFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/DemoCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/files/compare/Compare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
