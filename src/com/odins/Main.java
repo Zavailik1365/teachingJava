@@ -2,7 +2,8 @@ package com.odins;
 
 public class Main {
 //Test
-    public static void main(String[] args) {
+    public static void main(String[] args)
+        throws Exception{
 
         //  for (String arg : args) {
         //      System.out.println(arg);
@@ -22,9 +23,11 @@ public class Main {
 
 //        InvertNameEmployer.invert("Pavel");
 
-        DemoGeometricalFigure geometricalFigureCalculate = new DemoGeometricalFigure();
-        geometricalFigureCalculate.calculateArea();
+//        DemoGeometricalFigure geometricalFigureCalculate = new DemoGeometricalFigure();
+//        geometricalFigureCalculate.calculateArea();
 
+        ShowFile file = new ShowFile("Test.txt");
+        file.showFileInConsole();
     }
 
     }
