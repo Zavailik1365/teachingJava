@@ -1,7 +1,7 @@
 package com.odins;
 
 public class Main {
-//Test
+
     public static void main(String[] args) {
 
         //  for (String arg : args) {
