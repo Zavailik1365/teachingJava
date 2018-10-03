@@ -14,7 +14,7 @@ public class DemoImplementsRuneble {
         for (int i = 0; i < 10; i++) {
             ImplementsRuneble runeble = new ImplementsRuneble("Поток номер: " + i);
             threadArray[i] = new Thread(runeble);
-            threadArray[i].run();
+            threadArray[i].start();
         }
 
         while (true) {

@@ -13,7 +13,7 @@ public class DemoExtendsThreads {
 
         for (int i = 0; i < 10; i++) {
             threadArray[i] = new ExtendsThreads("Поток номер: " + i);
-            threadArray[i].run();
+            threadArray[i].start();
         }
 
         while (true) {
