@@ -7,7 +7,8 @@ public class DemoImplementsRuneble {
     public static void main(String arg[]) {
 
         Thread threadArray[] = new Thread[10];
-        boolean jodFinished[] = {false, false, false, false, false,
+        boolean jobsFinished;
+        boolean jobFinished[] = {false, false, false, false, false,
                 false, false, false, false, false};
 
         for (int i = 0; i < 10; i++) {
@@ -17,20 +18,30 @@ public class DemoImplementsRuneble {
         }
 
         while (true) {
+
+            jobsFinished = true;
+
             for (int i = 0; i < 10; i++){
                 if (threadArray[i].isAlive()) {
                     break;
                 }  else {
-                    jodFinished[i] = true;
+                    jobFinished[i] = true;
                 }
             }
-            if (jodFinished.equals(false)) {
+            for (int i = 0; i < 10; i++){
+                if (!jobFinished[i]) {
+                    jobsFinished = false;
+                }
+            }
+
+            if (!jobsFinished) {
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException exc) {
                     System.out.println("Выполнение потока переваною");}
             } else {
-                break;}
+                break;
+            }
         }
     }
 }
