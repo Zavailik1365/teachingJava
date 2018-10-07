@@ -392,7 +392,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Java project/teachingJava/src/com/odins/Main.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538572515492" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538920788184" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -532,6 +532,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoCompare" />
+        <item itemvalue="Application.QDemo" />
         <item itemvalue="Application.DemoCompare" />
         <item itemvalue="Application.DemoCompare" />
         <item itemvalue="Application.QDemo" />
