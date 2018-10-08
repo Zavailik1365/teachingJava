@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c18dd34-d3f1-427b-aa51-d2b5d907c6b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/DemoGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/Gen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/DemoQueueGens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/queue/QueueFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/queue/common/QueueAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueFullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueIsEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -105,6 +109,33 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-108223619">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.remote" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="619" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="619" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="teachingJava" />
@@ -112,19 +143,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/Gen.java">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="348">
+              <caret line="59" selection-start-line="52" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueFullException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueEmptyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueIsEnd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/QueueFull.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/DemoGen.java">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/DemoQueueGens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="391">
+              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/common/QueueAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/DemoCompare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/exception/QueueEmptyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/odins/files/compare/exception/ArgumetsError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +253,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -192,14 +312,20 @@
         <option value="$PROJECT_DIR$/src/com/odins/files/compare/Compare.java" />
         <option value="$PROJECT_DIR$/src/com/odins/gens/Gen.java" />
         <option value="$PROJECT_DIR$/src/com/odins/gens/DemoGen.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/io/queue/exception/exception/QueueEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueIsEnd.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/gens/queue/common/QueueAPI.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/gens/queue/QueueFull.java" />
+        <option value="$PROJECT_DIR$/src/com/odins/gens/DemoQueueGens.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1922" />
+    <option name="y" value="-18" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -259,25 +385,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
@@ -297,15 +410,58 @@
               <item name="odins" type="462c0819:PsiDirectoryNode" />
               <item name="gens" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="odins" type="462c0819:PsiDirectoryNode" />
+              <item name="gens" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="odins" type="462c0819:PsiDirectoryNode" />
+              <item name="gens" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="odins" type="462c0819:PsiDirectoryNode" />
+              <item name="gens" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="odins" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teachingJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teachingJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="odins" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Java project/teachingJava/src/com/odins/Main.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538926343164" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539017196710" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -314,9 +470,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.odins.gens.queue.exception" />
       <recent name="com.odins.io.queue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java projects\teachingJava\src\com\odins\gens\queue" />
+      <recent name="F:\Java projects\teachingJava\src\com\odins\io\queue\exception" />
       <recent name="D:\Java project\teachingJava" />
     </key>
   </component>
@@ -332,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoGen">
+  <component name="RunManager" selected="Application.DemoQueueGens">
     <configuration name="DemoCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.odins.DemoCompare" />
       <module name="edu" />
@@ -364,6 +523,19 @@
     </configuration>
     <configuration name="DemoGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.odins.gens.DemoGen" />
+      <module name="edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.odins.gens.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoQueueGens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.odins.gens.DemoQueueGens" />
       <module name="edu" />
       <extension name="coverage">
         <pattern>
@@ -456,14 +628,15 @@
       <item itemvalue="Application.QDemo" />
       <item itemvalue="Application.DemoCompare" />
       <item itemvalue="Application.DemoGen" />
+      <item itemvalue="Application.DemoQueueGens" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoQueueGens" />
         <item itemvalue="Application.DemoGen" />
         <item itemvalue="Application.DemoCompare" />
         <item itemvalue="Application.QDemo" />
         <item itemvalue="Application.DemoCompare" />
-        <item itemvalue="Application.QDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -510,11 +683,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935275" visible="true" weight="0.26865673" />
-      <window_info id="Structure" order="1" sideWeight="0.50647247" side_tool="true" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48381877" visible="true" weight="0.28997868" />
+      <window_info id="Structure" order="1" sideWeight="0.51618123" side_tool="true" visible="true" weight="0.28997868" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -522,14 +695,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.26066098" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.42299348" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -555,7 +728,7 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State>
               <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -563,6 +736,45 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -590,22 +802,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'lesson-12' into lesson-13" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="value.queueElementInt" language="JAVA" />
@@ -681,27 +877,9 @@
     <entry file="file://$PROJECT_DIR$/out/production/edu/com/company/QDemo.class" />
     <entry file="file://$PROJECT_DIR$/out/production/edu/com/company/QueueElement.class" />
     <entry file="file://$PROJECT_DIR$/out/production/edu/com/company/Main.class" />
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3954">
-          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/ByteArrayInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3002">
-          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="282" column="58" lean-forward="true" selection-start-line="282" selection-start-column="58" selection-end-line="282" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/Console.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/ByteArrayInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/File.java" />
     <entry file="file://$PROJECT_DIR$/src/com/odins/StackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -723,20 +901,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="286" column="32" selection-start-line="286" selection-start-column="32" selection-end-line="286" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="359" column="29" lean-forward="true" selection-start-line="359" selection-start-column="29" selection-end-line="359" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StrictMath.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/com/odins/base/figure/Circale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -760,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/odins/InvertNameEmployer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -772,13 +938,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="537" column="52" lean-forward="true" selection-start-line="537" selection-start-column="52" selection-end-line="537" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/System.java" />
     <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/base/QueueElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -822,16 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -841,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/odins/ShowFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="255">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
@@ -852,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/odins/files/compare/Compare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,7 +1019,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/odins/DemoCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="170">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -886,7 +1036,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/odins/files/compare/exception/ArgumetsError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="102">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
@@ -906,6 +1056,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="20" selection-start-column="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/exception/exception/QueueFullException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/exception/exception/QueueEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/io/queue/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="59" selection-start-line="52" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueFullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/exception/QueueIsEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/common/QueueAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/gens/queue/QueueFull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/odins/gens/DemoQueueGens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
